@@ -1,8 +1,8 @@
+title: "My Portfolio"
+description: "A beautiful GitHub Pages site"
 theme: minima
-title: "Your Portfolio"
-description: "My developer portfolio"
 markdown: kramdown
 
-# Add this line:
+# Tell Jekyll to include your assets folder
 include:
   - assets/css/style.css
