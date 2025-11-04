@@ -3,7 +3,7 @@ title: "Your Name | Portfolio"
 layout: default
 ---
 
-
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <div class="profile-card">
   <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile Picture">
