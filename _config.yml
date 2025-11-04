@@ -1,6 +1,6 @@
+title: "Your Name | Portfolio"
+description: "Developer • Designer • Creator"
 theme: minima
-title: "Your Name"
-description: "Portfolio, projects, and personal blog"
-author: "Your Name"
-show_excerpts: true
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
