@@ -1,91 +1,120 @@
 ---
-title: "Welcome to My Portfolio"
+title: "Your Name | Portfolio"
 layout: default
 ---
 
-# 🌟 Hi, I'm **Your Name**
+<style>
+/* 🌌 Background and Layout */
+body {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f4f4f4;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  padding: 0 10%;
+}
 
-> _Developer • Designer • Dreamer_
+/* 🌟 Profile Card */
+.profile-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  padding: 2em;
+  margin-top: 4em;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
 
-Welcome to my personal site, built with ❤️ using [GitHub Pages](https://pages.github.com/) and Markdown.  
-Here, you'll find my projects, skills, and a bit about what inspires me to create.
+.profile-card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9cd9ff;
+}
+
+/* ✨ Section Styling */
+section {
+  background: rgba(0,0,0,0.5);
+  padding: 2em;
+  border-radius: 10px;
+  margin: 3em 0;
+}
+</style>
+
+<div class="profile-card">
+  <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile Picture">
+  <h1>👋 Hi, I'm <strong>Your Name</strong></h1>
+  <p>💻 Developer • 🌍 Creator • ☕ Coffee Enthusiast</p>
+  <p>
+    <a href="https://github.com/yourusername">GitHub</a> · 
+    <a href="https://linkedin.com/in/yourusername">LinkedIn</a> · 
+    <a href="mailto:you@example.com">Email</a>
+  </p>
+</div>
 
 ---
 
-## 💫 About Me
+<section>
+<h2>🚀 About Me</h2>
+<p>
+I'm a <strong>software engineer</strong> with a passion for building smooth user experiences and elegant code.  
+I specialize in web technologies, cloud systems, and data-driven applications.
+</p>
+</section>
 
-I'm a **software developer** passionate about crafting elegant solutions through code.  
-Whether it's a web app, data pipeline, or UI prototype — I love turning ideas into reality.
-
-- 🎓 Background: Computer Science @ Your University  
-- 💼 Currently: Working as a Developer at **Awesome Company**  
-- 🌍 Location: City, Country  
-- ☕ Fun Fact: I write my best code after my second cup of coffee
-
----
-
-## 🚀 Featured Projects
-
-Here are some projects I’m proud of:
-
-### 🔗 [Project One](https://github.com/yourusername/project-one)
-_A modern web app built with React and Flask._
-
-- 🧩 Features user authentication, REST API, and dynamic dashboards  
-- 🧠 Focused on clean UI and performance  
-- 💻 Deployed on [Render](https://render.com)
-
----
-
-### ⚙️ [Project Two](https://github.com/yourusername/project-two)
-_Exploring machine learning for sentiment analysis._
-
-- 🤖 Trained NLP models using Python (scikit-learn & Hugging Face)  
-- 📊 Visualized insights with Matplotlib and Plotly  
-- 🗂️ Dataset: 100k+ labeled text samples
-
----
-
-### 🎨 [Project Three](https://github.com/yourusername/project-three)
-_A creative coding experiment using p5.js and canvas animations._
-
-- ✨ Focused on generative art and motion  
-- 💡 Inspired by nature and geometry  
-
----
-
-## 🧠 Skills
+<section>
+<h2>🧠 Skills</h2>
 
 | Category | Tools & Technologies |
 |-----------|----------------------|
 | 💻 Programming | Python, JavaScript, TypeScript, C++ |
-| 🌐 Web | React, Node.js, HTML5, CSS3 |
-| ☁️ Cloud & DevOps | GitHub Actions, Docker, AWS |
-| 📊 Data & ML | Pandas, scikit-learn, TensorFlow |
-| 🧩 Other | REST APIs, Agile, Figma |
+| 🌐 Web | React, Node.js, Next.js, Flask |
+| ☁️ Cloud | AWS, Docker, GitHub Actions |
+| 📊 Data | Pandas, TensorFlow, SQL |
+| 🎨 Design | Figma, Adobe XD |
 
----
+</section>
 
-## ✍️ Blog Highlights
+<section>
+<h2>💼 Projects</h2>
 
-> _Occasional posts about coding, creativity, and productivity._
+### 🔗 [Portfolio Website](https://github.com/yourusername/portfolio)
+A responsive personal site built with Jekyll and GitHub Pages.
 
-- 🪶 [How I Built My First Web App](#)  
-- ⚡ [Improving API Performance: Lessons Learned](#)  
-- 🎧 [Music That Helps Me Code](#)
+### ⚙️ [API Builder](https://github.com/yourusername/api-builder)
+A fast microservice boilerplate using Flask and Docker.
 
----
+### 🎮 [Game Jam Project](https://github.com/yourusername/gamejam)
+A fun creative coding project made in 48 hours!
 
-## 📫 Get in Touch
+</section>
 
-I’d love to connect — reach out through:
+<section>
+<h2>📫 Let's Connect</h2>
+<p>
+If you’d like to collaborate, chat tech, or just say hi —  
+reach out via <a href="mailto:you@example.com">email</a> or connect with me on 
+<a href="https://linkedin.com/in/yourusername">LinkedIn</a>.
+</p>
+</section>
 
-- 💼 [LinkedIn](https://linkedin.com/in/yourusername)  
-- 🐙 [GitHub](https://github.com/yourusername)  
-- ✉️ [Email Me](mailto:you@example.com)
-
----
-
-_“Code is like art — the more you practice, the more beautiful it becomes.”_
-
-© 2025 Your Name
+<footer style="text-align:center; margin-top:3em; font-size:0.9em;">
+© 2025 Your Name · Built with ❤️ using <a href="https://pages.github.com/">GitHub Pages</a>
+</footer>
