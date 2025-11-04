@@ -3,60 +3,8 @@ title: "Your Name | Portfolio"
 layout: default
 ---
 
-<style>
-/* 🌌 Background and Layout */
-body {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-              url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80');
-  background-size: cover;
-  background-attachment: fixed;
-  color: #f4f4f4;
-  font-family: "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
-  padding: 0 10%;
-}
 
-/* 🌟 Profile Card */
-.profile-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  text-align: center;
-  padding: 2em;
-  margin-top: 4em;
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(8px);
-}
-
-.profile-card img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  margin-bottom: 1em;
-}
-
-h1, h2, h3 {
-  color: #fff;
-  text-shadow: 0 2px 5px rgba(0,0,0,0.4);
-}
-
-a {
-  color: #58a6ff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9cd9ff;
-}
-
-/* ✨ Section Styling */
-section {
-  background: rgba(0,0,0,0.5);
-  padding: 2em;
-  border-radius: 10px;
-  margin: 3em 0;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
   <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile Picture">
