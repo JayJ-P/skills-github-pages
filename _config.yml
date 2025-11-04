@@ -1,6 +1,8 @@
-title: "Your Name | Portfolio"
-description: "Developer • Designer • Creator"
 theme: minima
+title: "Your Portfolio"
+description: "My developer portfolio"
 markdown: kramdown
-plugins:
-  - jekyll-seo-tag
+
+# Add this line:
+include:
+  - assets/css/style.css
