@@ -1,4 +1,6 @@
 theme: minima
-title: profile
-author: jay
-description: details
+title: "Your Name"
+description: "Portfolio, projects, and personal blog"
+author: "Your Name"
+show_excerpts: true
+markdown: kramdown
